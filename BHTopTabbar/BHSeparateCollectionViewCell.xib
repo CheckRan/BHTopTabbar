@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BHSeparateCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vTe-zw-rx7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击添加更多频道" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rmz-Dk-xan">
+                                <rect key="frame" x="10" y="0.0" width="365" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.91764705882352937" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rmz-Dk-xan" firstAttribute="top" secondItem="vTe-zw-rx7" secondAttribute="top" id="B4A-S5-kYu"/>
+                            <constraint firstItem="Rmz-Dk-xan" firstAttribute="leading" secondItem="vTe-zw-rx7" secondAttribute="leading" constant="10" id="UdD-cc-t7W"/>
+                            <constraint firstAttribute="trailing" secondItem="Rmz-Dk-xan" secondAttribute="trailing" id="nrw-6U-we7"/>
+                            <constraint firstAttribute="bottom" secondItem="Rmz-Dk-xan" secondAttribute="bottom" id="ziN-7F-rna"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vTe-zw-rx7" secondAttribute="bottom" id="6Hg-oT-Trg"/>
+                <constraint firstItem="vTe-zw-rx7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="awg-Mw-3bJ"/>
+                <constraint firstAttribute="trailing" secondItem="vTe-zw-rx7" secondAttribute="trailing" id="hIf-6s-wbb"/>
+                <constraint firstItem="vTe-zw-rx7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pL9-z4-Zn8"/>
+            </constraints>
+            <size key="customSize" width="375" height="30"/>
+            <point key="canvasLocation" x="247.5" y="264"/>
+        </collectionViewCell>
+    </objects>
+</document>
