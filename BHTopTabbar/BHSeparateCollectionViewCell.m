@@ -14,7 +14,7 @@
 {
     NSString * reuseID = NSStringFromClass([self class]);
     
-    [collectionView registerNib:[UINib nibWithNibName:reuseID  bundle:nil] forCellWithReuseIdentifier:reuseID];
+    [collectionView registerNib:[UINib nibWithNibName:reuseID  bundle:@"resource.bundle"] forCellWithReuseIdentifier:reuseID];
     return [collectionView dequeueReusableCellWithReuseIdentifier:reuseID forIndexPath:indexPath];
 }
 
